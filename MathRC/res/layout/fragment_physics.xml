@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mathrc.PhysicsActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView_physics"
+        android:layout_width="245dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
+        android:maxLines="10"
+        android:textSize="14sp"
+        android:scrollbars="vertical"
+        android:text="@string/slide1_physics"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/backButton_physics"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:onClick="backButton_physicsListener" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <Button
+        android:id="@+id/nextButton_physics"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextButton"
+        android:onClick="nextButton_physicsListener" />
+    
+    </LinearLayout>
+    
+    <com.example.mathrc.Joystick.JoystickView
+        android:id="@+id/joystick_physics"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal" />
+
+    <SeekBar
+        android:id="@+id/torqueBar_physics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

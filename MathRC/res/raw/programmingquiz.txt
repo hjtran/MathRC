@@ -1,0 +1,39 @@
+Q: What is the equivalent of a period for code?
+A semicolon (;)
+A colon (:)
+A period (.)
+A comma (,)
+Q: You cannot give detailed commands to a computer.
+False
+True
+Q: Programmers write instructions for computers in Englihs.
+False
+True
+Q: Programmers use a special language called code to give computers instructions.
+True
+False
+Q: A computer is only useful for video games
+False
+True
+Q: Computers have been around since 1960.
+False
+True
+Q: Which of these instructions written in code is correct?
+RCCar.drive();
+RCCar.turn(;
+RCCar.
+Car.rev();
+Q: Which of these are a correct command?
+Vehicle RCCar;
+Vehicle() RC
+RCCar
+Vehicle
+Q: Ending a command with a semicolon is unnecessary.
+False
+True
+Q: Which of these commands produce an action?
+All of the above
+RCCar.drive(fast);
+RCCar.drive(medium);
+RCCar.drive(slow);
+endbank

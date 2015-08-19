@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.mathrc.ProgrammingActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView_programming"
+        android:layout_width="245dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:text="@string/slide1_programming"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/backButton_programming"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:onClick="backButton_programmingListener" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <Button
+        android:id="@+id/nextButton_programming"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextButton"
+        android:onClick="nextButton_programmingListener" />
+    
+    </LinearLayout>
+          
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+     <EditText
+         android:id="@+id/codeField"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10">
+
+         <requestFocus />
+     </EditText>
+     <Button 
+        android:id="@+id/enterButton_programming"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterButton"
+        android:onClick="enterButton_programmingListener" />
+    </LinearLayout>
+     
+     <TextView
+     android:id="@+id/console_programming"
+     android:layout_width="245dp"
+     android:layout_height="150dp"
+     android:layout_marginLeft="18dp"
+     android:layout_marginStart="18dp"
+     android:layout_marginTop="19dp"
+     android:text="@string/slide1_physics"
+     android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+</LinearLayout>

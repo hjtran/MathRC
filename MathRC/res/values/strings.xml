@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math RC</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainActivity -->
+    <string name="learning_button">Learning Mode</string>
+    <string name="reinforcement_button">Reinforcement Mode</string>
+    <string name="title_activity_learning">LearningActivity</string>
+
+    <!-- ReinforcementActivity -->
+    <string name="questionText">Place holder question Place holder question Place holder question Place holder question Place holder question</string>
+    <string name="answer1ButtonText">Placeholder Answer A</string>
+    <string name="answer2ButtonText">Placeholder Answer B</string>
+    <string name="answer3ButtonText">Placeholder Answer C</string>
+    <string name="answer4ButtonText">Placeholder Answer D</string>
+    <string name="driveButtonText">DRIVE</string>
+    <string name="nextButtonText">NEXT</string>
+    <string name="title_activity_reinforcement">ReinforcementActivity</string>
+
+    <!-- DrivingActivity -->
+    <string name="title_activity_driving">DrivingActivity</string>
+    <string name="title_connected_to">connected to:</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth JoyStick.</string>
+    <string name="not_connected">You are not connected to a device</string>
+
+    <!-- DeviceListActivity -->
+    <string name="title_activity_DeviceList">DeviceListActivity</string>
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="title_activity_physics">PhysicsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_programming">ProgrammingActivity</string>
+
+    <!-- PhysicsActivity -->
+    <string name="slide1_physics">Physics is all around us! Without studying physics, we wouldn’t be able to engineer bikes or cars that could safely transport us. In this lesson, we’ll be learning about some of the physics that surround the operation of cars.</string>
+    <string name="slide2_physics">Friction is the the force responsible for the resistance you feel when you drag your feet. The more force you put on another object or surface, the more friction force you’ll experience. For example, try pushing your palm against a table and dragging it. Now try doing it without pushing very hard. Which instance was it easier to drag your hand?</string>
+    <string name="slide3_physics">Now let’s friction in action with the race car!. Try driving the car around a little bit with the joystick. Take note of how fast it can go.</string>
+    <string name="slide4_physics">Now try adding two weights onto it and driving. Is it slower?</string>
+    <string name="slide5_physics">Now try adding two MORE weights. Is it slower now?</string>
+    <string name="slide6_physics">Once more, but let’s really turn up the friction. Try adding FOUR more weights now. How does the speed compare to the car without weights?</string>
+	<string name="slide7_physics">Congratulations! You’ve now applied concepts of friction. Now let’s consider another force. Imagine turning a door knob. Can you name the force you are applying to the door knob? The force responsible is named torque!</string>
+	<string name="slide8_physics">Okay, now let’s consider what is responsible for moving the RC Car. We know that when we drive the car the wheels move the car forward. Furthermore, the wheels do this through spinning. Therefore, it must be a torque force that is ultimately responsible for the movement of the car!</string>
+	<string name="slide9_physics">We have capped the amount of torque that can be applied to the RC Car’s wheels. Try driving the car and notice how much torque is being applied as shown by the torque bar on the bottom.</string>
+	<string name="slide10_physics">We’ve now increased the amount of torque the RC Car can apply to the wheels. Now see how fast it can go. You should notice that the more torque applied, the faster the car goes!</string>
+	<string name="slide11_physics">
+Congratulations! You’ve now learned how friction and torque work and apply to cars! These are concepts that many different professions have to apply, such as the engineers that create cars! Feel free to play with the joystick and weights and see friction and torque in action again!</string>
+    <string name="backButton">BACK</string>
+    <string name="nextButton">NEXT</string>
+
+    <!-- ProgrammingActivity -->
+    <string name="slide1_programming">Computers are becoming a bigger and bigger part of our world! One of the ways that computers are 
+        controlled is through programming.  Programmers give computers a task list of things to do which eventually lead to what you’re 
+        seeing on the screen now! In this lesson, you’ll be learning the basics of programming! </string>
+    <string name="slide2_programming">Writing tasks for a computer to do is called coding. Unlike people, computers can’t 
+        understand English so programmers have to give them tasks in a language they can understand. For your first task, let’s start with 
+        something simple. We’ll be telling the computer in the car what to do so we must first declare the thing we’ll be working with. 
+        The general form of this is “ITEMTYPE ObjectName” Like English, we have to end all of our sentences with a punctuation mark, 
+        which is “;” instead of a period. So try declaring your first object! (Type “Vehicle RCCar;”)</string>
+    <string name="slide3_programming">Great! Now the computer knows you want to work with an object called RCCar. When we want to tell the
+         computer to do something with an object, we can add the command to the end of the object. Try typing “RCCar.drive();” to see what 
+         happens!</string>
+    <string name="slide4_programming">Awesome! See that? We gave the computer the instruction to drive the car and so it did! What if the 
+        car is starting to hit a wall? Let’s stop it. Type RCCar.stop();</string>
+    <string name="slide5_programming">Now try RCCar.drive(slow);</string>
+    <string name="slide6_programming">Great! Now you understand a little bit of the basics of programming! Feel free to just play around now! 
+        Here are all of the commands you can try. 
+        RCCar.drive(fast);
+		RCCar.drive(medium);
+		RCCar.drive(slow);
+		RCCar.turn(left);
+		RCCar.turn(right);
+		RCCar.turn(straight);
+		RCCar.stop();
+		RCCar.reverse(fast);
+		RCCar.reverse(medium);
+		RCCar.reverse(slow);</string>
+    <string name="slide7_programming"></string>
+    <string name="enterButton">ENTER</string>
+    <!-- Button Text in PhysicsActivity -->
+
+    <string name="title_activity_transition_to_quiz">TransitionToQuiz</string>
+    <string name="title_activity_transition">TransitionActivity</string>
+
+</resources>

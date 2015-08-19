@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mathrc.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/BTConnectButton"
+            android:text="Connect To Car"
+            android:onClick="connectButtonListener" />
+        
+        <TextView 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/BTStatus"
+            android:layout_marginLeft="50dp" 
+            android:layout_marginStart="50dp"
+            android:text="Unconnected"
+            android:layout_gravity="center_vertical"/>
+        
+    </LinearLayout>
+    
+    <Button		
+        android:id="@+id/learningButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:text="@string/learning_button"
+        android:onClick="learningModeButtonListener" />
+
+    <Button			
+        android:id="@+id/reinforcementButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:text="@string/reinforcement_button"
+        android:onClick="reinforcementModeButtonListener" />
+
+</LinearLayout>
